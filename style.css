@@ -1,0 +1,227 @@
+html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, textarea, label { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    }
+    body{
+        background-image: url(6346a41019c41.jpg);
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    h1 {
+        font-size: 40px;
+        color: rgb(74, 52, 109);
+        text-align: center
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    margin-left: 30%;
+   
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px  #cc7a00; 
+    }
+    
+   #names{
+    width: 450px;
+   }
+   #number{
+    width: 450px;
+   }
+   #email{
+    width: 450px;
+   }
+   .form-control{
+    padding: 5px;
+   }
+    
+    
+    input {
+        
+        padding: 5px;
+        }
+   
+   
+    
+    .item {
+    position: relative;
+    margin: 10px 0;
+    }
+     span {
+    color: red;
+    }
+   
+   
+   
+   
+    
+    
+    .button {
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: blue;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    }
+    .button1 {
+        width: 70px;
+       text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 5px; 
+        background: #cc7a00;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+        margin-left: 5px;
+        }
+
+        .form-control small {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility: hidden;
+        }
+
+        #radio {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility: visible;
+        }
+        #check {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility: visible;
+        }
+
+        #statusId {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility: visible;
+        }
+
+        #error1 {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility:visible;
+        }
+        #error2 {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility:visible;
+        }
+        #error3 {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility:visible;
+        }
+        #error4 {
+            color: red ;
+            visibility:visible;
+            left: 0;
+            bottom: 0;
+           
+        }
+        #error5 {
+            color: red ;
+            visibility:visible;
+            left: 0;
+            bottom: 0;
+           
+        }
+        #error6 {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility:visible;
+        }
+        #error7 {
+            color: red ;
+            
+            left: 0;
+            bottom: 0;
+            visibility:visible;
+        }
+        
+        table,td,tr{
+            margin-top: 50px;
+            text-align: center;
+            background: white;
+            color:black;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        #show{
+            margin-top: 100px;
+            
+       
+        }
+        #btna td input{
+            width: 100%;
+        }
+    
+        #container {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+            margin-left: 250px;
+            margin-bottom: 20px;
+            
+           
+        
+          }
+          
+          #container td, #container th {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+          
+         
+          
+          td{
+            background-color:lightgray ;
+            
+          }
+          
+          #container th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #0489aa;
+            color: white;
+          }
